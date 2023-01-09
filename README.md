@@ -10,4 +10,4 @@ A repository of secure working tools for Bitcoin Businesses who wish to self-cus
 [Toolbox]: https://github.com/EAWF/BTC-Toolbox
 [Electrum]: https://electrum.org/#home
 [Standard Bitcoin HD Wallets]: ./Wallets.md
-[Multisig] ./ElectrumMultisig.md
+[Multisig]: ./ElectrumMultisig.md
