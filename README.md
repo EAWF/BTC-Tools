@@ -2,7 +2,7 @@
 # BTC-Tools
 A repository of secure working tools for Bitcoin Businesses who wish to self-custody bitcoin in their HD or HD Multisig Wallets.
 * [BTC-Toolbox][Toolbox] is used to create receiving addresses that will direct funds into their self-custody wallets.
-* [Standard Bitcoin HD Wallets] may be used to store funds which may be sent from a [Multisig][ElectrumMultisig] scheme.
+* [Standard Bitcoin HD Wallets] may be used to store funds which may be sent from a [Multisig] scheme.
 
 [banner]: https://github.com/EAWF/EAWF/blob/master/images/EAWF.png
 [website]: http://eawf.com
@@ -10,4 +10,4 @@ A repository of secure working tools for Bitcoin Businesses who wish to self-cus
 [Toolbox]: https://github.com/EAWF/BTC-Toolbox
 [Electrum]: https://electrum.org/#home
 [Standard Bitcoin HD Wallets]: ./Wallets.md
-[ElectrumMultisig] ./ElectrumMultisig.md
+[Multisig] ./ElectrumMultisig.md
