@@ -28,8 +28,9 @@
 3. Your HD Multisig wallet is ready for use!
 
 ## Send Funds From The Wallet
-* WIP
+1. One co-signor creates transaction
+2. 
 
 
 ## Notes:
-* You cannot sign a message with a Bech32 Multisig wallet.
+* You cannot sign a message with an address from a Multisig wallet because the actual private key is a conglomeration .
