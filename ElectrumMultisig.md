@@ -14,8 +14,10 @@
 ## When you have received ALL of the Master Extended Public Keys from your group:
 1. Start Electrum and create a new X of Y wallet.
 2. Select "I have a seed" and type in the mnemonic seed you wrote down in step 3.
-3. Verify the mnemonic and that the extended public key is the same as what you sent in step 3. If not, restart at Step 6 
+3. Verify the mnemonic and that the extended public key is the same as what you sent in step 3. If not, restart at Step 6
+
 \* Procedure is Verified to Here: RH 20230109 \*
+
 4. Add all of the co-signers Master Extended Public Keys to your wallet, which will result in a completed wallet which is ready to use.
 5. Go to the Receive Addresses and copy the first three to your clipboard.
 6. Go to the Sign Message and use the three Receive addresses as the message.
