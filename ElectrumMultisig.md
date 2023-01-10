@@ -15,28 +15,21 @@
 1. Start Electrum and create a new X of Y wallet.
 2. Select "I have a seed" and type in the mnemonic seed you wrote down in step 3 above.
 3. Verify the mnemonic and that the extended public key is the same as what you sent in step 5 above.
-
-\* Procedure is Verified to Here: RH 20230109 \*
-
 4. Add all of the co-signers Master Extended Public Keys to your wallet, which will result in a completed wallet which is ready to use.
-5. Go to the Receive Addresses and copy the first three to your clipboard.
-6. Go to the Sign Message and use the three Receive addresses as the message.
-7. Use the first address as the address to sign the message with.
+5. Go to the Receive Addresses and copy the first address to your clipboard.
+6. Go to the Sign Message and past the address as the message.
+7. Use the address as the address to sign the message with.
 8. Generate the signature and copy the signed message to your clipboard.
-9. Send the signed message to this group.
-10. As the others send their messages, verify each one and let the group know the results of the verification. *The signatures and addresses should match what you have.*
-11. If all are verified, the wallet is ready for use.
+9. Send the signed message to your group.
+10. As the others send their messages, verify each one and let the group know the results of the verification. *The signatures and address should match what you have.*
+11. If all are verified, the wallet is ready to test with bitcoin.
 
 ## Receive Funds Into The Wallet
 1. Everyone Send a small amount of BTC to the next empty receive address that your wallet shows. When all are complete, you should have Y addresses used.
 2. Everyone should verify that the funds are showing up in all of the wallets.
-3. Your HD Multisig wallet(s) is/are ready for use!
+3. Your HD Multisig wallet is ready for use!
 
 ## Send Funds From The Wallet
 1. WIP
+* Work in progress *
 
-## Testing with buidl.js(buidl.html)
-1. Export an account level extended public key from the wallet.
-2. Paste it into https://eawf.com/buidl.html in the **Bulk From Xpub/Ypub/Zpub** section.
-3. Change the depth input field to 3 and hit the **Generate** button.
-4. The three addresses derived should match exactly with the addresses in your wallet.
