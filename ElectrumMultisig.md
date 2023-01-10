@@ -28,8 +28,8 @@
 3. Your HD Multisig wallet is ready for use!
 
 ## Send Funds From The Wallet
-1. WIP
-* Work in progress *
+* WIP
 
-## ERRATA:
+
+## NOTES:
 * You cannot sign a message with a Bech32 Multisig wallet.
