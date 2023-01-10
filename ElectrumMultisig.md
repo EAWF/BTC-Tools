@@ -31,5 +31,5 @@
 * WIP
 
 
-## NOTES:
+## Notes:
 * You cannot sign a message with a Bech32 Multisig wallet.
