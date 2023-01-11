@@ -28,9 +28,17 @@
 3. Your HD Multisig wallet is ready for use!
 
 ## Send Funds From The Wallet
-1. One co-signor creates transaction
+### Transaction Orignater(Sender)
+1. One co-signor creates transaction from BTC Address from Receiver's Wallet, amount, and decides on the fee.
+2. Click [Pay] button.
+3. Click [Finalize] button.
+4. Click [Sign] button.
+5. Click [Export] button and send the transaction text to the rest of your group for signing.
+
+### Transaction Signor(Co-signor)
+1. Receive the transaction text and copy to your clipboard.
 2. 
 
 
 ## Notes:
-* You cannot sign a message with an address from a Multisig wallet because the actual private key is a conglomeration .
+* You cannot sign a message with an address from a Multisig wallet because the actual private key is a conglomeration of keys.
