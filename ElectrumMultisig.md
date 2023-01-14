@@ -37,8 +37,13 @@
 
 ### Transaction Signor(Co-signor)
 1. Receive the transaction text and copy to your clipboard.
-2. 
+2. Work In Progress.
 
 
 ## Notes:
 * You cannot sign a message with an address from a Multisig wallet because the actual private key is a conglomeration of keys.
+* Your wallet type MUST be the same as all of the other wallet types.
+  * If you use xPrv, all of the rest of the Extended Public Keys MUST be xPub. Same for yPrv or zPrv.
+* Electrum 4.3.3 ONLY creates zPubs.
+* Trezor One ONLY creates zPubs.
+* If you want to use xPubs, then create an account in a wallet like Mycelium and export the xPrv and xPub, then create a new Electrum x of y, use the xPrv, and match the xPub to be shared.  
